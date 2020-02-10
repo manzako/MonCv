@@ -72,6 +72,7 @@
     padding:0px;
     background-color: #F3F3F3;
     margin-top: 10px;
+    margin-bottom: 3.5px;
 }
 .bari{
     display: inline-block;
@@ -262,6 +263,11 @@ a{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border: none;
     }
+
+    .nav{
+        visibility: hidden;
+    }
+    
     /*
 
     .bari{
@@ -277,9 +283,7 @@ a{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     }
 
-    .nav{
-        visibility: hidden;
-    }
+    
     .foot{
         text-align: center;
     }
@@ -309,22 +313,16 @@ a{
 @media(max-width:1536px){
 
 
-    .nav{
-        visibility: hidden;
-    }
 
 
     .identite{
         text-align: center;
     }
-    
+   
 }
 
 @media(max-width:1900px){
 
-    .nav{
-        visibility: hidden;
-    }
 
 
     .identite{
