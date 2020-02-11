@@ -55,6 +55,10 @@
     
 }
 
+.lang{
+    background-color: #F3F3F3;
+}
+
 .ulbar{
     list-style-type: none;
     margin: auto;
@@ -96,6 +100,7 @@
 
 body{
     font-family: 'Libre Baskerville', serif;
+    overflow-x:hidden;
 }
 
 h1,h2,p{
@@ -141,6 +146,10 @@ i{
 #comp{
     text-align: center;
 
+}
+
+.exp-cont{
+    background-color: #F3F3F3;
 }
 
 
