@@ -101,6 +101,7 @@
 body{
     font-family: 'Libre Baskerville', serif;
     overflow-x:hidden;
+    margin: 0px;
 }
 
 h1,h2,p{
@@ -260,6 +261,10 @@ a{
 
 @media(max-width:1152px){
 
+    *{
+        box-sizing: border-box;
+    }
+
     .dedans{
         width: 100%;
 
@@ -311,7 +316,7 @@ a{
 
     .img{
 
-            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
         
